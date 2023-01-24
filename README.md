@@ -65,10 +65,13 @@ Las líneas 10 y 11 sirven para relacionar una sección de archivo de index.html
 
 <p align="justify">
 Lo siguiente es la funcion "obtenerMensaje" con la cual, con querySelector relacionamos el textarea en el que el usuario ingresara un texto cualquiera.
+  
 Este textarea tiene una clase llamada "texto-emntrada" y gracias a ".value" podemos obtener ese texto y almacenarlo en la variable global "frase". 
+  
 Gracias a que "frase" es una variable global, es que podemos utilizarla y modificarla a lo largo de todo el codigo del script.
 </p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_obtenerMensaje.PNG"></div>
+
 
 Mas secciones en construcción ...
