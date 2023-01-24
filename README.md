@@ -1,5 +1,5 @@
 # Challenge encriptador de texto
-  <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/Encriptador%20de%20texto.png"></div>
+  <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Encriptador%20de%20texto.png"></div>
   <br>
   <div align="center"><a href="https://ax3g.github.io/Challenge_Encriptador/"><strong> == Enlace al encriptador de texto == </strong></a></div>
   
@@ -34,7 +34,7 @@ Las llaves de encriptacion utilizadas son:
 ````
 Por ejemplo:
 "gato" => "gaitober"
-gaitober" => "gato"
+"gaitober" => "gato"
 ````
 - La página debe tener campos parainserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
 - El resultado debe ser mostrado en la pantalla.
@@ -44,8 +44,22 @@ Extras:
 
 ---
 
-# Solución [Explicación del srcipt.js]
+# Solución [Explicación del script.js]
 
+<p align="justify">
+Al inicio creamos y declaramos las variables que se usan a lo largo del programa.
 
+Las variables de las líneas 1 a la 4, son variables que contendrán texto, las dejamos vacías "[ ]", pues no sabemos el tamaño o el número de caracteres que habrá dentro de ellas.
+
+La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a,e,i,o,u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".
+
+La variable "llaves" de la línea 8, contiene las llaves/frases/oraciones que serán intercambiadas por las vocales que sean encontradas en el texto que el usuario introduzca. Y estas llaves pueden no tener sentido o algún significado específico, de igual forma, esta variable al estar declarada al inicio del programa puede ser modificada para agregar o quitar más llaves.
+
+La variable "caracteres" contiene todos los caracteres que son permitidos, es decir, los caracteres que no se encuentren aquí no permitirán que el programa realice la encriptación/desencriptación y arrojará una alerta sobre esto. Dentro de "caracteres" se encuentran solamente las letras del abecedario en minuscula, incluida la "ñ" (la letra "ñ" es un carácter especial en javascript, y solo es reconocido con el código "\u00f1"), y además se encuentra el caracter de "espacio en blanco" (el caracter de espacio en blanco es el que produce la barra espaciadora en el teclado).
+
+Las lineas 10 y 11 
+
+</p>
+<div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
 
 Mas secciones en construcción ...
