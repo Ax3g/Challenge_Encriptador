@@ -17,17 +17,28 @@ Para este proyecto, al ingresar un texto cualquiera, el "encriptador de texto" b
 De igual manera, podremos ingresar un texto que haya sido encriptado, y el "encriptador de texto" podrá buscar y detectar las "llaves" para asi poder intercambiarlas por sus vocales correspondientes, y así regresar al mensaje original.</p>
 
 Las llaves de encriptacion utilizadas son:
-```
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
-```
+
+- La letra "a" es convertida en "ai"
+- La letra "e" es convertida en "enter"
+- La letra "i" es convertida en "imes"
+- La letra "o" es convertida en "ober"
+- La letra "u" es convertida en "ufat"
 
 ---
 
+# Requisitos
 
+- Debe funcionar solo con letras minúsculas.
+- No deben ser utilizados letras con acentos ni caracteres especiales.
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+````
+Por ejemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
+````
+- La página debe tener campos parainserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- El resultado debe ser mostrado en la pantalla.
 
+---
 
 Mas secciones en construcción ...
