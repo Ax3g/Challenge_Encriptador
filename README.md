@@ -7,7 +7,7 @@
   
 # Descripción
 
-<p align="center">Este es un challenge de Alura + ONE (Oracle Next Education) para fortalecer los conocimientos adquiridos en formación como principiante de programación.
+<p align="justify">Este es un challenge de Alura + ONE (Oracle Next Education) para fortalecer los conocimientos adquiridos en formación como principiante de programación.
 Se desarrollo con tecnologías como: HTML5, CSS3  y JavaScript.
 
 El proyecto consiste en elaborar un encriptador/desencriptador de texto.
