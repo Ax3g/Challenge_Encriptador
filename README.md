@@ -59,6 +59,13 @@ La variable "caracteres" contiene todos los caracteres que son permitidos, es de
 
 Las líneas 10 y 11 sirven para relacionar una sección de archivo de index.html en la que se muestra una imagen y dos textos (en el área donde se mostrarán los resultados de encriptar/desencriptar) con la variable "ocultarImg". Después la variable "ocultarImg" se establece como "block" para que esta imagen y texto se muestran y posteriormente en el código puede cambiar de "block" a "none" para ocultarlos y viceversa.
 </p>
+
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
+
+<p align="justify">
+  
+</p>
+
+<div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_obtenerMensaje.PNG"></div>
 
 Mas secciones en construcción ...
