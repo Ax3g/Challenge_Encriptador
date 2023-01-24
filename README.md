@@ -61,6 +61,7 @@ Extras:
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
 
+### Función obtenrMensaje
 
 <p align="justify">La siguiente es la función "obtenerMensaje" con la cual, con querySelector relacionamos el textarea en el que el usuario ingresa un texto cualquiera para encriptar/desencriptar.</p>
   
@@ -70,6 +71,7 @@ Extras:
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_obtenerMensaje.PNG"></div>
 
+### Funcion existeMensaje
 
 <p align="justify"></p>
 <p align="justify"></p>
