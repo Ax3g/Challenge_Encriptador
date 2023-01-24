@@ -45,6 +45,8 @@ Extras:
 
 # Solución [Explicación del script.js]
 
+### Variables declaradas
+
 <p align="justify">Al inicio creamos y declaramos las variables que se usan a lo largo del programa.</p>
 
 <p align="justify">Las variables de las líneas 1 a la 4, son variables que contendrán texto, las dejamos vacías "[ ]", pues no sabemos el tamaño o el número de caracteres que habrá dentro de ellas.</p>
@@ -58,16 +60,21 @@ Extras:
 <p align="justify">Las líneas 10 y 11 sirven para relacionar una sección de archivo de index.html en la que se muestra una imagen y dos textos (en el área donde se mostrarán los resultados de encriptar/desencriptar) con la variable "ocultarImg". Después la variable "ocultarImg" se establece como "block" para que esta imagen y texto se muestran y posteriormente en el código puede cambiar de "block" a "none" para ocultarlos y viceversa.</p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<p align="justify">Lo siguiente es la funcion "obtenerMensaje" con la cual, con querySelector relacionamos el textarea en el que el usuario ingresara un texto cualquiera.</p>
-  
-<p align="justify">Este textarea tiene una clase llamada "texto-emntrada" y gracias a ".value" podemos obtener ese texto y almacenarlo en la variable global "frase".</p> 
-  
-<p align="justify">Gracias a que "frase" es una variable global, es que podemos utilizarla y modificarla a lo largo de todo el codigo del script.</p>
 
+<p align="justify">La siguiente es la función "obtenerMensaje" con la cual, con querySelector relacionamos el textarea en el que el usuario ingresa un texto cualquiera para encriptar/desencriptar.</p>
+  
+<p align="justify">Este textarea tiene una clase llamada "texto-entrada" y gracias a ".value" podemos obtener ese texto y almacenarlo en la variable global "frase".</p> 
+  
+<p align="justify">Gracias a que "frase" es una variable global, es que podemos utilizarla y modificarla a lo largo de todo el código del script.</p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_obtenerMensaje.PNG"></div>
+
+
+<p align="justify"></p>
+<p align="justify"></p>
+
+<div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_existeMensaje.PNG"></div>
 
 
 Mas secciones en construcción ...
