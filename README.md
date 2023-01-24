@@ -1,7 +1,7 @@
 # Challenge encriptador de texto
   <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/Encriptador%20de%20texto.png"></div>
   <br>
-  <div align="center"><a href="https://ax3g.github.io/Challenge_Encriptador/" target="_blank">** == Enlace al encriptador de texto == **</a></div>
+  <div align="center"><a href="https://ax3g.github.io/Challenge_Encriptador/"><strong> == Enlace al encriptador de texto == </strong></a></div>
   
  ---
   
@@ -16,6 +16,18 @@ Para este proyecto, al ingresar un texto cualquiera, el "encriptador de texto" b
 
 De igual manera, podremos ingresar un texto que haya sido encriptado, y el "encriptador de texto" podrá buscar y detectar las "llaves" para asi poder intercambiarlas por sus vocales correspondientes, y así regresar al mensaje original.</p>
 
+Las llaves de encriptacion utilizadas son:
+```
+La letra "e" es convertida para "enter"
+La letra "i" es convertida para "imes"
+La letra "a" es convertida para "ai"
+La letra "o" es convertida para "ober"
+La letra "u" es convertida para "ufat"
+```
+
 ---
+
+
+
 
 Mas secciones en construcción ...
