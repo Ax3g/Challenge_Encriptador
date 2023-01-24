@@ -1,7 +1,7 @@
 # Challenge encriptador de texto
   <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/Encriptador%20de%20texto.png"></div>
-  
-  <div align="center"><a href="https://ax3g.github.io/Challenge_Encriptador/"><strong> == Enlace al encriptador de texto == </strong></a></div>
+  <br>
+  <div align="center"><a href="https://ax3g.github.io/Challenge_Encriptador/" target="_blank"><strong> == Enlace al encriptador de texto == </strong></a></div>
   
  ---
   
