@@ -7,14 +7,13 @@
   
 # Descripción
 
-<p align="justify">Este es un challenge de Alura + ONE (Oracle Next Education) para fortalecer los conocimientos adquiridos en formación como principiante de programación.
-Se desarrollo con tecnologías como: HTML5, CSS3  y JavaScript.
+<p align="justify">Este es un challenge de Alura + ONE (Oracle Next Education) para fortalecer los conocimientos adquiridos en formación como principiante de programación. Se desarrollo con tecnologías como: HTML5, CSS3  y JavaScript.</p>
 
-El proyecto consiste en elaborar un encriptador/desencriptador de texto.
+<p align="justify">El proyecto consiste en elaborar un encriptador/desencriptador de texto.</p>
 
-Para este proyecto, al ingresar un texto cualquiera, el "encriptador de texto" buscara las vocales (a, e, i, o, u) y las intercambiara por unas frases que llamaremos "llaves", y de esta forma el texto original se verá modificado/encriptado para dificultar su lectura/comprensión.
+<p align="justify">Para este proyecto, al ingresar un texto cualquiera, el "encriptador de texto" buscara las vocales (a, e, i, o, u) y las intercambiara por unas frases que llamaremos "llaves", y de esta forma el texto original se verá modificado/encriptado para dificultar su lectura/comprensión.</p>
 
-De igual manera, podremos ingresar un texto que haya sido encriptado, y el "encriptador de texto" podrá buscar y detectar las "llaves" para asi poder intercambiarlas por sus vocales correspondientes, y así regresar al mensaje original.</p>
+<p align="justify">De igual manera, podremos ingresar un texto que haya sido encriptado, y el "encriptador de texto" podrá buscar y detectar las "llaves" para asi poder intercambiarlas por sus vocales correspondientes, y así regresar al mensaje original.</p>
 
 Las llaves de encriptacion utilizadas son:
 
@@ -46,19 +45,17 @@ Extras:
 
 # Solución [Explicación del script.js]
 
-<p align="justify">
-Al inicio creamos y declaramos las variables que se usan a lo largo del programa.
+<p align="justify">Al inicio creamos y declaramos las variables que se usan a lo largo del programa.</p>
 
-Las variables de las líneas 1 a la 4, son variables que contendrán texto, las dejamos vacías "[ ]", pues no sabemos el tamaño o el número de caracteres que habrá dentro de ellas.
+<p align="justify">Las variables de las líneas 1 a la 4, son variables que contendrán texto, las dejamos vacías "[ ]", pues no sabemos el tamaño o el número de caracteres que habrá dentro de ellas.</p>
 
-La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a,e,i,o,u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".
+<p align="justify">La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a,e,i,o,u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".</p>
 
-La variable "llaves" de la línea 8, contiene las llaves/frases/oraciones que serán intercambiadas por las vocales que sean encontradas en el texto que el usuario introduzca. Y estas llaves pueden no tener sentido o algún significado específico, de igual forma, esta variable al estar declarada al inicio del programa puede ser modificada para agregar o quitar más llaves.
+<p align="justify">La variable "llaves" de la línea 8, contiene las llaves/frases/oraciones que serán intercambiadas por las vocales que sean encontradas en el texto que el usuario introduzca. Y estas llaves pueden no tener sentido o algún significado específico, de igual forma, esta variable al estar declarada al inicio del programa puede ser modificada para agregar o quitar más llaves.</p>
 
-La variable "caracteres" contiene todos los caracteres que son permitidos, es decir, los caracteres que no se encuentren aquí no permitirán que el programa realice la encriptación/desencriptación y arrojará una alerta sobre esto. Dentro de "caracteres" se encuentran solamente las letras del abecedario en minuscula, incluida la "ñ" (la letra "ñ" es un carácter especial en javascript, y solo es reconocido con el código "\u00f1"), y además se encuentra el caracter de "espacio en blanco" (el caracter de espacio en blanco es el que produce la barra espaciadora en el teclado).
+<p align="justify">La variable "caracteres" contiene todos los caracteres que son permitidos, es decir, los caracteres que no se encuentren aquí no permitirán que el programa realice la encriptación/desencriptación y arrojará una alerta sobre esto. Dentro de "caracteres" se encuentran solamente las letras del abecedario en minuscula, incluida la "ñ" (la letra "ñ" es un carácter especial en javascript, y solo es reconocido con el código "\u00f1"), y además se encuentra el caracter de "espacio en blanco" (el caracter de espacio en blanco es el que produce la barra espaciadora en el teclado).</p>
 
-Las líneas 10 y 11 sirven para relacionar una sección de archivo de index.html en la que se muestra una imagen y dos textos (en el área donde se mostrarán los resultados de encriptar/desencriptar) con la variable "ocultarImg". Después la variable "ocultarImg" se establece como "block" para que esta imagen y texto se muestran y posteriormente en el código puede cambiar de "block" a "none" para ocultarlos y viceversa.
-</p>
+<p align="justify">Las líneas 10 y 11 sirven para relacionar una sección de archivo de index.html en la que se muestra una imagen y dos textos (en el área donde se mostrarán los resultados de encriptar/desencriptar) con la variable "ocultarImg". Después la variable "ocultarImg" se establece como "block" para que esta imagen y texto se muestran y posteriormente en el código puede cambiar de "block" a "none" para ocultarlos y viceversa.</p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
