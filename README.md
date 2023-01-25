@@ -102,9 +102,9 @@ explicacion de que ocurre si hay texto o no hay o si se borra despues de haber e
 
 <p align="justify">El primer ciclo for nos ayudara a recorrer cada uno de los caracteres que conforman al texto de "hola", es decir, nos permitira iniciar con la "h", depues pasaremos a la "o", luego a la "l" y por ultimo a la "a". Gracias a "frase.length" podemos estar seguros de que sea cual sea el texto que ingrese un usuario, podremos recorrer desde el primer caracter hasta el ultimo.</p>
 
-<p align="justify">El segundo ciclo for nos ayudara a recorrer todos los caracteres que hemos almacenado en la variable "caracteres", la cual solamente contiene los caracteres del abecedario y en minusculas, ademas del espacio en blanco. Si quisieramos que nuestro encriptador de texto reconosca mas caracteres como numeros, o caracteres especiales como parentesis, comillss, signos de interrogacion, signos de exclamacion, etc., solo bastaria con agregarlos a la variable de  "caracteres".</p>
+<p align="justify">El segundo ciclo for nos ayudara a recorrer todos los caracteres que hemos almacenado en la variable "caracteres", la cual solamente contiene los caracteres del abecedario y en minusculas, ademas del espacio en blanco. Si quisieramos que nuestro encriptador de texto reconosca mas caracteres como numeros, o caracteres especiales como parentesis, comillas, signos de interrogacion, signos de exclamacion, etc., solo bastaria con agregarlos a la variable de  "caracteres".</p>
 
-<p align="justify"></p>
+<p align="justify">sección en construcción... (lamentamos las molestias.)</p>
 <p align="justify"></p>
 <p align="justify"></p>
 <p align="justify"></p>
