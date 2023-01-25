@@ -43,6 +43,12 @@ Extras:
 
 ---
 
+# Caracteristicas
+
+explicacion de que ocurre si hay texto o no hay o si se borra despues de haber encriptado o al usar mayus o caracteres especiales............
+
+---
+
 # Solución [Explicación del script.js]
 
 ### Variables declaradas
@@ -77,19 +83,12 @@ Extras:
 
 ### Funcion existeMensaje
 
-<p align="justify">La variable "bandera" se inicializa en cero. Esta variable nos ayuda para que el programa sepa si se ha ingresado algún texto o caracter para que sea encriptado/desencriptado. Si "bandera" tiene un valor de cero, entonces si existe un mensaje, en cambio, si "bandera" tiene un valor que sea mayor o diferente de cero, entonces no hay un mensaje para encriptar/desencriptar.</p>
-
-<p align="justify">La variable "bandermsg" se inicializa en cero. Tiene una función parecida a la variable "bandera" y será utilizada más adelante en la función "mensajeFinal". Si "banderamsg" tiene un valor de cero, entonces si existe un mensaje, en cambio, si "banderamsg" tiene un valor que sea igual a uno, entonces no hay un mensaje para encriptar/desencriptar.</p>
-
-<p align="justify">El primer "if" que abarca de la linea 20 a la 23 compara si "frase" es igual a nada (''), esta comparandose y preguntando si es igual a un caracter vacio/nulo, es decir, si no hay caracteres y el textarea esta vacio entonces ingresa al interior del if para ejecutar esas lineas de codigo.</p>
-<p align="justify">En caso de que existiera algun texto, entonces se ignoraria el primer if y pasariamos al segundo if que abarrca de la linea 24 a la 31. Este segundo if pregunta si "bandera" es mayor que cero, es decir, pregunta si es que no hay un mesaje, de no haber un mensaje entraria a este if, pero si "banera" fuera igual a cero entonces entraria al else.</p>
-
 <p align="justify">Esta función sirve para saber si el textarea no está vacío y si es que existe algún mensaje para encriptar/desencriptar.</p>
-<p align="justify">El primer "if" que abarca de la línea 20 a la 23, compara si "frase" es igual nada (''), es decir, pregunta si en el textarea hay algún texto para encriptar/desencriptar.</p>
-<p align="justify">El segundo "if" que abarca de la line 24 a la 31, pregunta si la variable "bandera" es mayor a cero, ¿si "bandera" es mayor a cero? esto indica que no se encontro un texto para encriptar/desencriptar. 
-En cambio, ¿si? "bandera" es igual a cero </p>
-<p align="justify"></p>
-<p align="justify"></p>
+<p align="justify">El primer "if" que abarca de la línea 20 a la 23, compara si "frase" es igual nada (''), es decir, pregunta si en el textarea hay algún texto para encriptar/desencriptar. La variable "bandera" se utiliza en el siguiente if y la variable "banderamsg" se utiliza en la función de "mensajeFinal()".</p>
+
+<p align="justify">El segundo "if" que abarca de la línea 24 a la 31, pregunta si la variable "bandera" es mayor a cero, ¿si "bandera" es mayor a cero? esto indica que no se encontró un texto para encriptar/desencriptar. Entonces, al no existir ningún texto, mandamos llamar a la función "ocultar()" de la línea 25, que veremos más adelante, la linea 26 mostrara un mensaje emergente que indicara que no hay mensajes para encriptar/desencriptar y por ultimo, la linea 27 borrara cualquier tipo de texto/mensaje que se encuentre en el textaarea en el que se muestran el resultado de la encriptacion/desencriptacion. </p>
+  
+<p align="justify">En cambio, ¿si "bandera" es igual a cero?, esto indica que si existe texto para encriptar/desencriptar. Entonces, en la línea 30 mandamos llamar a la función "mostrar()", la cual se explicará más adelante.</p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_existeMensaje.PNG"></div>
 
