@@ -29,13 +29,13 @@ Las llaves de encriptacion utilizadas son:
 
 - Debe funcionar solo con letras minúsculas.
 - No deben ser utilizados letras con acentos ni caracteres especiales.
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+- Debe ser posible convertir un texto en una palabra/oración encriptada, y de igual manera también debe de devolver una palabra/oración encriptada a su versión original.
 ````
 Por ejemplo:
 "gato" => "gaitober"
 "gaitober" => "gato"
 ````
-- La página debe tener campos parainserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones.
 - El resultado debe ser mostrado en la pantalla.
 
 Extras:
@@ -61,7 +61,7 @@ explicacion de que ocurre si hay texto o no hay o si se borra despues de haber e
 
 <p align="justify">Las variables de la línea 6 serán utilizadas en diferentes funciones a lo largo de todo el script y serán de ayuda para modificar el comportamiento de algunas de las funciones del encriptador de texto.</p>
 
-<p align="justify">La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a,e,i,o,u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".</p>
+<p align="justify">La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a, e, i, o, u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".</p>
 
 <p align="justify">La variable "llaves" de la línea 8, contiene las llaves/frases/oraciones que serán intercambiadas por las vocales que sean encontradas en el texto que el usuario introduzca. Y estas llaves pueden no tener sentido o algún significado específico, de igual forma, esta variable al estar declarada al inicio del programa puede ser modificada para agregar o quitar más llaves.</p>
 
@@ -83,7 +83,8 @@ explicacion de que ocurre si hay texto o no hay o si se borra despues de haber e
 
 ### Funcion existeMensaje
 
-<p align="justify">Esta función sirve para saber si el textarea no está vacío y si es que existe algún mensaje para encriptar/desencriptar.</p>
+<p align="justify">Esta función sirve para saber si el textarea no está vacío y si es que existe algún mensaje para encriptar/desencriptar el programa continue.</p>
+
 <p align="justify">El primer "if" que abarca de la línea 20 a la 23, compara si "frase" es igual nada (''), es decir, pregunta si en el textarea hay algún texto para encriptar/desencriptar. La variable "bandera" se utiliza en el siguiente if y la variable "banderamsg" se utiliza en la función de "mensajeFinal()".</p>
 
 <p align="justify">El segundo "if" que abarca de la línea 24 a la 31, pregunta si la variable "bandera" es mayor a cero, ¿si "bandera" es mayor a cero? esto indica que no se encontró un texto para encriptar/desencriptar. Entonces, al no existir ningún texto, mandamos llamar a la función "ocultar()" de la línea 25, que veremos más adelante, la linea 26 mostrara un mensaje emergente que indicara que no hay mensajes para encriptar/desencriptar y por ultimo, la linea 27 borrara cualquier tipo de texto/mensaje que se encuentre en el textaarea en el que se muestran el resultado de la encriptacion/desencriptacion. </p>
