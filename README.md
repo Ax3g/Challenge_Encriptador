@@ -65,7 +65,7 @@ Extras:
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Parametros_iniciales.PNG"></div>
 
-### Función obtenrMensaje
+### Función obtenerMensaje
 
 <p align="justify">La siguiente es la función "obtenerMensaje" con la cual, con querySelector relacionamos el textarea en el que el usuario ingresa un texto cualquiera para encriptar/desencriptar.</p>
   
@@ -84,7 +84,11 @@ Extras:
 <p align="justify">El primer "if" que abarca de la linea 20 a la 23 compara si "frase" es igual a nada (''), esta comparandose y preguntando si es igual a un caracter vacio/nulo, es decir, si no hay caracteres y el textarea esta vacio entonces ingresa al interior del if para ejecutar esas lineas de codigo.</p>
 <p align="justify">En caso de que existiera algun texto, entonces se ignoraria el primer if y pasariamos al segundo if que abarrca de la linea 24 a la 31. Este segundo if pregunta si "bandera" es mayor que cero, es decir, pregunta si es que no hay un mesaje, de no haber un mensaje entraria a este if, pero si "banera" fuera igual a cero entonces entraria al else.</p>
 
-<p align="justify">Esta funcion sirve para saber si el textarea no esta vacio y si es que existe algun mensaje para encriptar/desencriptar </p>
+<p align="justify">Esta función sirve para saber si el textarea no está vacío y si es que existe algún mensaje para encriptar/desencriptar.</p>
+<p align="justify">El primer "if" que abarca de la línea 20 a la 23, compara si "frase" es igual nada (''), es decir, pregunta si en el textarea hay algún texto para encriptar/desencriptar.</p>
+<p align="justify">El segundo "if" que abarca de la line 24 a la 31, pregunta si la variable "bandera" es mayor a cero, ¿si "bandera" es mayor a cero? esto indica que no se encontro un texto para encriptar/desencriptar. 
+En cambio, ¿si? "bandera" es igual a cero </p>
+<p align="justify"></p>
 <p align="justify"></p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_existeMensaje.PNG"></div>
