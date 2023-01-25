@@ -92,5 +92,25 @@ explicacion de que ocurre si hay texto o no hay o si se borra despues de haber e
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_existeMensaje.PNG"></div>
 
+### Funcion comprobarMinusculas
+
+<p align="justify">Esta funcion sirve para comprobar que el texto que ha ingresado el usuario contiene solamente letras minusculas.</p>
+
+<p align="justify">Inisiaremos con un ejemplo facil, supongamos que el usuario a ingresado el texto de "hola" para que sea encriptado. El texto de "hola" se ha almacenado en la variable de "frase".</p>
+
+<p align="justify">Primero hay que indicar que hay dos ciclos for. El primer ciclo for (linea 36 a 49) contiene dentro a un segundo ciclo for (linea 37 a 45).</p>
+
+<p align="justify">El primer ciclo for nos ayudara a recorrer cada uno de los caracteres que conforman al texto de "hola", es decir, nos permitira iniciar con la "h", depues pasaremos a la "o", luego a la "l" y por ultimo a la "a". Gracias a "frase.length" podemos estar seguros de que sea cual sea el texto que ingrese un usuario, podremos recorrer desde el primer caracter hasta el ultimo.</p>
+
+<p align="justify">El segundo ciclo for nos ayudara a recorrer todos los caracteres que hemos almacenado en la variable "caracteres", la cual solamente contiene los caracteres del abecedario y en minusculas, ademas del espacio en blanco. Si quisieramos que nuestro encriptador de texto reconosca mas caracteres como numeros, o caracteres especiales como parentesis, comillss, signos de interrogacion, signos de exclamacion, etc., solo bastaria con agregarlos a la variable de  "caracteres".</p>
+
+<p align="justify"></p>
+<p align="justify"></p>
+<p align="justify"></p>
+<p align="justify"></p>
+<p align="justify"></p><p align="justify"></p>
+
+<div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_comprobarMinusculas.PNG"></div>
+
 
 Mas secciones en construcción ...
