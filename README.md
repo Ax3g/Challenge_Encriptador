@@ -51,6 +51,10 @@ Extras:
 
 <p align="justify">Las variables de las líneas 1 a la 4, son variables que contendrán texto, las dejamos vacías "[ ]", pues no sabemos el tamaño o el número de caracteres que habrá dentro de ellas.</p>
 
+<p align="justify">En la variable "mensaje" de la línea 5 es en donde se almacenará el resultado final, asi que podrá contener el texto encriptado o desencriptado.</p>
+
+<p align="justify">Las variables de la línea 6 serán utilizadas en diferentes funciones a lo largo de todo el script y serán de ayuda para modificar el comportamiento de algunas de las funciones del encriptador de texto.</p>
+
 <p align="justify">La variable "vocales" de la línea 7, contiene los caracteres que serán intercambiados por las "llaves", en este caso, esos caracteres son las vocales (a,e,i,o,u), pero al declarar esta variable al inicio del programa podemos agregar los caracteres que queramos intercambiar por una llave, claro, el número de variables en "vocales" deberá coincidir con el número de variables en "llaves".</p>
 
 <p align="justify">La variable "llaves" de la línea 8, contiene las llaves/frases/oraciones que serán intercambiadas por las vocales que sean encontradas en el texto que el usuario introduzca. Y estas llaves pueden no tener sentido o algún significado específico, de igual forma, esta variable al estar declarada al inicio del programa puede ser modificada para agregar o quitar más llaves.</p>
@@ -73,7 +77,14 @@ Extras:
 
 ### Funcion existeMensaje
 
-<p align="justify"></p>
+<p align="justify">La variable "bandera" se inicializa en cero. Esta variable nos ayuda para que el programa sepa si se ha ingresado algún texto o caracter para que sea encriptado/desencriptado. Si "bandera" tiene un valor de cero, entonces si existe un mensaje, en cambio, si "bandera" tiene un valor que sea mayor o diferente de cero, entonces no hay un mensaje para encriptar/desencriptar.</p>
+
+<p align="justify">La variable "bandermsg" se inicializa en cero. Tiene una función parecida a la variable "bandera" y será utilizada más adelante en la función "mensajeFinal". Si "banderamsg" tiene un valor de cero, entonces si existe un mensaje, en cambio, si "banderamsg" tiene un valor que sea igual a uno, entonces no hay un mensaje para encriptar/desencriptar.</p>
+
+<p align="justify">El primer "if" que abarca de la linea 20 a la 23 compara si "frase" es igual a nada (''), esta comparandose y preguntando si es igual a un caracter vacio/nulo, es decir, si no hay caracteres y el textarea esta vacio entonces ingresa al interior del if para ejecutar esas lineas de codigo.</p>
+<p align="justify">En caso de que existiera algun texto, entonces se ignoraria el primer if y pasariamos al segundo if que abarrca de la linea 24 a la 31. Este segundo if pregunta si "bandera" es mayor que cero, es decir, pregunta si es que no hay un mesaje, de no haber un mensaje entraria a este if, pero si "banera" fuera igual a cero entonces entraria al else.</p>
+
+<p align="justify">Esta funcion sirve para saber si el textarea no esta vacio y si es que existe algun mensaje para encriptar/desencriptar </p>
 <p align="justify"></p>
 
 <div align="center"><img src="https://github.com/Ax3g/Challenge_Encriptador/blob/master/img/img_Readme/Funcion_existeMensaje.PNG"></div>
